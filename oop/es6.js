@@ -1,7 +1,10 @@
 //EcmaScript
 //ES6 + ES2015 --- ES2022
 
-class Person {
+//1 clase, 1 archivo, y para usar la clase (los console log) en el index u otro archivo
+//hay que exportar las clases
+
+export class Person {
     static isPerson(value) {
         return value instanceof Object;
     }
